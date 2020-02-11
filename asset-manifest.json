@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/b4-site/static/css/main.07cce1aa.chunk.css",
+    "main.js": "/b4-site/static/js/main.a27694aa.chunk.js",
+    "main.js.map": "/b4-site/static/js/main.a27694aa.chunk.js.map",
+    "runtime-main.js": "/b4-site/static/js/runtime-main.6272b07f.js",
+    "runtime-main.js.map": "/b4-site/static/js/runtime-main.6272b07f.js.map",
+    "static/js/2.82873509.chunk.js": "/b4-site/static/js/2.82873509.chunk.js",
+    "static/js/2.82873509.chunk.js.map": "/b4-site/static/js/2.82873509.chunk.js.map",
+    "index.html": "/b4-site/index.html",
+    "precache-manifest.5a44dd392786a5dbd933a05297057ef9.js": "/b4-site/precache-manifest.5a44dd392786a5dbd933a05297057ef9.js",
+    "service-worker.js": "/b4-site/service-worker.js",
+    "static/css/main.07cce1aa.chunk.css.map": "/b4-site/static/css/main.07cce1aa.chunk.css.map",
+    "static/js/2.82873509.chunk.js.LICENSE.txt": "/b4-site/static/js/2.82873509.chunk.js.LICENSE.txt",
+    "static/media/banner-fortnite.jpg": "/b4-site/static/media/banner-fortnite.18e97910.jpg",
+    "static/media/banner-free-fire.jpg": "/b4-site/static/media/banner-free-fire.06efaa78.jpg",
+    "static/media/banner-pubg.jpg": "/b4-site/static/media/banner-pubg.350a9e5a.jpg",
+    "static/media/banner.jpg": "/b4-site/static/media/banner.c3c6be94.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6272b07f.js",
+    "static/js/2.82873509.chunk.js",
+    "static/css/main.07cce1aa.chunk.css",
+    "static/js/main.a27694aa.chunk.js"
+  ]
+}
