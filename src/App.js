@@ -5,18 +5,20 @@ import Streams from './components/Streams';
 import Updates from './components/Updates';
 import Teams from './components/Teams';
 import './App.scss';
+import Footer from './components/Footer';
+import Championships from './components/Championships';
 
 function App() {
   return (
-    // <div className="container-fluid">
     <>
       <Header />
       <Banner />
       <Streams />
       <Updates />
+      <Championships />
       <Teams />
+      <Footer />
     </>
-    // </div>
   );
 }
 

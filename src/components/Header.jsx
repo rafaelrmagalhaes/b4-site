@@ -7,7 +7,7 @@ const Header = () => (
             <div className="col">
                 <img className="logo" src={logo} alt="B4STARDOS" />
             </div>
-            <nav className="col">
+            <nav className="col-10">
                 <ul className="menu">
                     <li><a href="#">Fotos</a></li>
                     <li><a href="#">Equipes</a></li>

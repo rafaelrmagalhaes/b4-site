@@ -1,23 +1,25 @@
 import React from 'react';
-import nimo from '../assets/images/nimo.png';
+import nimo from '../assets/images/logos/nimo.png';
 
 const Streams = () => (
-    <section id="streams" className="col-md-10 mx-auto">
-        <h2>Transmissões ao vivo</h2>
-        <div className="nimo">
-            <span>Powered By</span>
-            <img src={nimo} alt="Nimo TV" />
+    <section id="streams" className="container">
+        <div class="row">
+            <div className="col">
+                <h2>Transmissões ao vivo</h2>
+                <div className="nimo">
+                    <span>Powered By</span>
+                    <img src={nimo} width="120" alt="Nimo TV" />
+                </div>
+            </div>
         </div>
-        <div className="clearfix"></div>
         <div className="row">
-            <div className="col-md-6 stream">
+            <div className="col stream">
                 <span></span>
             </div>
-            <div className="col-md-6 stream">
+            <div className="col stream">
                 <span></span>
             </div>
         </div>
-
     </section>
 );
 

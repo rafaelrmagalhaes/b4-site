@@ -1,17 +1,20 @@
 import React from 'react';
-import nimo from '../assets/images/nimo.png';
 
 const Updates = () => (
-    <section id="updates" className="col-md-10 mx-auto">
-        <h2>Últimas atualizações</h2>
+    <section id="updates" className="container">
         <div className="row">
-            <div className="col-md-4 update">
+            <div className="col">
+                <h2>Últimas atualizações</h2>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col update">
                 <span></span>
             </div>
-            <div className="col-md-4 update">
+            <div className="col update">
                 <span></span>
             </div>
-            <div className="col-md-4 update">
+            <div className="col update">
                 <span></span>
             </div>
         </div>
