@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/b4-site/static/css/main.07cce1aa.chunk.css",
-    "main.js": "/b4-site/static/js/main.a27694aa.chunk.js",
-    "main.js.map": "/b4-site/static/js/main.a27694aa.chunk.js.map",
+    "main.css": "/b4-site/static/css/main.be0b0a02.chunk.css",
+    "main.js": "/b4-site/static/js/main.6ad23425.chunk.js",
+    "main.js.map": "/b4-site/static/js/main.6ad23425.chunk.js.map",
     "runtime-main.js": "/b4-site/static/js/runtime-main.6272b07f.js",
     "runtime-main.js.map": "/b4-site/static/js/runtime-main.6272b07f.js.map",
-    "static/js/2.82873509.chunk.js": "/b4-site/static/js/2.82873509.chunk.js",
-    "static/js/2.82873509.chunk.js.map": "/b4-site/static/js/2.82873509.chunk.js.map",
+    "static/js/2.ffc4ffd6.chunk.js": "/b4-site/static/js/2.ffc4ffd6.chunk.js",
+    "static/js/2.ffc4ffd6.chunk.js.map": "/b4-site/static/js/2.ffc4ffd6.chunk.js.map",
     "index.html": "/b4-site/index.html",
-    "precache-manifest.5a44dd392786a5dbd933a05297057ef9.js": "/b4-site/precache-manifest.5a44dd392786a5dbd933a05297057ef9.js",
+    "precache-manifest.8de9f66d6fbebb60dd078f3b9ba241b7.js": "/b4-site/precache-manifest.8de9f66d6fbebb60dd078f3b9ba241b7.js",
     "service-worker.js": "/b4-site/service-worker.js",
-    "static/css/main.07cce1aa.chunk.css.map": "/b4-site/static/css/main.07cce1aa.chunk.css.map",
-    "static/js/2.82873509.chunk.js.LICENSE.txt": "/b4-site/static/js/2.82873509.chunk.js.LICENSE.txt",
+    "static/css/main.be0b0a02.chunk.css.map": "/b4-site/static/css/main.be0b0a02.chunk.css.map",
+    "static/js/2.ffc4ffd6.chunk.js.LICENSE.txt": "/b4-site/static/js/2.ffc4ffd6.chunk.js.LICENSE.txt",
+    "static/media/b4stardinhos.png": "/b4-site/static/media/b4stardinhos.034b3852.png",
+    "static/media/b4stardos.png": "/b4-site/static/media/b4stardos.b9ffb32d.png",
     "static/media/banner-fortnite.jpg": "/b4-site/static/media/banner-fortnite.18e97910.jpg",
     "static/media/banner-free-fire.jpg": "/b4-site/static/media/banner-free-fire.06efaa78.jpg",
     "static/media/banner-pubg.jpg": "/b4-site/static/media/banner-pubg.350a9e5a.jpg",
@@ -19,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6272b07f.js",
-    "static/js/2.82873509.chunk.js",
-    "static/css/main.07cce1aa.chunk.css",
-    "static/js/main.a27694aa.chunk.js"
+    "static/js/2.ffc4ffd6.chunk.js",
+    "static/css/main.be0b0a02.chunk.css",
+    "static/js/main.6ad23425.chunk.js"
   ]
 }
