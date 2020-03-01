@@ -1,24 +1,42 @@
 import React from 'react';
-import Header from './components/Header';
-import Banner from './components/Banner';
-import Streams from './components/Streams';
-import Updates from './components/Updates';
-import Teams from './components/Teams';
+import Home from './pages/Home';
+import Photos from './pages/Photos';
+import Teams from './pages/Teams';
+import About from './pages/About';
 import './App.scss';
-import Footer from './components/Footer';
-import Championships from './components/Championships';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Banner />
-      <Streams />
-      <Updates />
-      <Championships />
-      <Teams />
-      <Footer />
-    </>
+    <Router>
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/fotos">
+          <Photos />
+        </Route>
+        <Route path="/equipes">
+          <Teams />
+        </Route>
+        <Route path="/sobre">
+          <About />
+        </Route>
+      </Switch>
+    </Router>
+    // <>
+    //   <Header />
+    //   <Banner />
+    //   <Streams />
+    //   <Updates />
+    //   <Championships />
+    //   <Teams />
+    //   <Footer />
+    // </>
   );
 }
 

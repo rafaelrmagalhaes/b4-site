@@ -20,7 +20,7 @@ const Footer = () => (
 
         <div className="container">
             <div className="row wrapper">
-                <img className="logo" src={logo} alt="B4STARDOS" />
+                <a href="/"><img className="logo" src={logo} alt="B4STARDOS" /></a>
                 <nav>
                     <ul>
                         <li><a href="#"><img src={social} alt="Redes Sociais" /></a></li>

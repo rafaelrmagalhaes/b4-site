@@ -5,14 +5,14 @@ const Header = () => (
     <header className="container">
         <div className="row">
             <div className="col">
-                <img className="logo" src={logo} alt="B4STARDOS" />
+                <a href="/"><img className="logo" src={logo} alt="B4STARDOS" /></a>
             </div>
             <nav className="col-10">
                 <ul className="menu">
-                    <li><a href="#">Fotos</a></li>
-                    <li><a href="#">Equipes</a></li>
-                    <li><a href="#">Loja</a></li>
-                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="fotos">Fotos</a></li>
+                    <li><a href="equipes">Equipes</a></li>
+                    {/* <li><a href="loja">Loja</a></li> */}
+                    <li><a href="sobre">Sobre Nós</a></li>
                 </ul>
             </nav>
         </div>
