@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37f30911121e9c74502b2efcf551b7dd",
+    "revision": "98479944f06b19c9d1b52f09d0b51599",
     "url": "/b4-site/index.html"
   },
   {
-    "revision": "bb4c44bc9d41e244be28",
-    "url": "/b4-site/static/css/main.19969477.chunk.css"
+    "revision": "78174c38d9d3aee69f59",
+    "url": "/b4-site/static/css/main.34e7435b.chunk.css"
   },
   {
-    "revision": "439492a6fa36f1179e0a",
-    "url": "/b4-site/static/js/2.beb9dda4.chunk.js"
+    "revision": "b250a6602d1abc2bb02f",
+    "url": "/b4-site/static/js/2.e41a8d7a.chunk.js"
   },
   {
     "revision": "65f61a1b574cbfdae1aa1e0f7a13f7ca",
-    "url": "/b4-site/static/js/2.beb9dda4.chunk.js.LICENSE.txt"
+    "url": "/b4-site/static/js/2.e41a8d7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb4c44bc9d41e244be28",
-    "url": "/b4-site/static/js/main.546300a6.chunk.js"
+    "revision": "78174c38d9d3aee69f59",
+    "url": "/b4-site/static/js/main.b0ab7e21.chunk.js"
   },
   {
     "revision": "80784a07afebb1c081a8",
@@ -36,12 +36,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/b4-site/static/media/banner-fortnite.18e97910.jpg"
   },
   {
+    "revision": "7d38a23c5b049f68ddcaa04704708811",
+    "url": "/b4-site/static/media/banner-fotos.7d38a23c.png"
+  },
+  {
     "revision": "06efaa7860df362a3a76e5d43e188836",
     "url": "/b4-site/static/media/banner-free-fire.06efaa78.jpg"
   },
   {
     "revision": "350a9e5a69fba48e93b7e302fe09e2f7",
     "url": "/b4-site/static/media/banner-pubg.350a9e5a.jpg"
+  },
+  {
+    "revision": "fefbf625e8c21d611c7d3d8cc48ef5ee",
+    "url": "/b4-site/static/media/banner-sobre-content.fefbf625.png"
+  },
+  {
+    "revision": "c5677fb67b0cb2864ef3c90b1b1ebaa5",
+    "url": "/b4-site/static/media/banner-sobre.c5677fb6.png"
   },
   {
     "revision": "c3c6be945a12c8de70c2794cdc905848",
