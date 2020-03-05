@@ -12,19 +12,19 @@ const Teams = () => (
         </div>
         <ul className="row">
             <li className="col">
-                <a href="#">
+                <a href="/equipe/freefire">
                     <img src={freeFire} alt="Free Fire" />
                     <span className="see-team">Ver equipe</span>
                 </a>
             </li>
             <li className="col">
-                <a href="#">
+                <a href="/equipe/fortnite">
                     <img src={fortnite} alt="Fortnite" />
                     <span className="see-team">Ver equipe</span>
                 </a>
             </li>
             <li className="col">
-                <a href="#">
+                <a href="/equipe/pubg">
                     <img src={pubg} alt="PUBG" />
                     <span className="see-team">Ver equipe</span>
                 </a>

@@ -1,8 +1,11 @@
 import React from 'react';
 import Home from './pages/Home';
 import Photos from './pages/Photos';
-import Teams from './pages/Teams';
+import TeamsPage from './pages/TeamsPage';
 import About from './pages/About';
+import FreeFire from './pages/FreeFire';
+import Fortnite from './pages/Fortnite';
+import Pubg from './pages/Pubg';
 import './App.scss';
 import {
   BrowserRouter as Router,
@@ -20,23 +23,23 @@ function App() {
         <Route path="/fotos">
           <Photos />
         </Route>
-        <Route path="/equipes">
-          <Teams />
+        <Route path="/equipes" exact>
+          <TeamsPage />
+        </Route>
+        <Route path="/equipe/freefire">
+          <FreeFire />
+        </Route>
+        <Route path="/equipe/fortnite">
+          <Fortnite />
+        </Route>
+        <Route path="/equipe/pubg">
+          <Pubg />
         </Route>
         <Route path="/sobre">
           <About />
         </Route>
       </Switch>
     </Router>
-    // <>
-    //   <Header />
-    //   <Banner />
-    //   <Streams />
-    //   <Updates />
-    //   <Championships />
-    //   <Teams />
-    //   <Footer />
-    // </>
   );
 }
 

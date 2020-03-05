@@ -9,6 +9,14 @@ a {
   transition: all .3s linear;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
 a:hover {
   text-decoration: none;
   opacity: .5;
@@ -321,72 +329,152 @@ header {
       }
     }
   }
+}
 
-  .member {
-    width: 250px;
-    height: 350px;
-    background-color: #111;
+.member {
+  width: 250px;
+  height: 350px;
+  background-color: #111;
+  display: block;
+  margin: 20px auto;
+  position: relative;
+
+  img {
+    position: absolute;
+    z-index: 0;
+  }
+
+  .video {
     display: block;
-    margin: 20px auto;
+    position: absolute;
+    background-color: #f00;
+    padding: 14px 9px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    top: -15px;
+    right: -15px;
+
+    span {
+      display: block;
+      background: url('./assets/images/logos/social.png') no-repeat -112px -2px;
+      width: 29px;
+      height: 17px;
+    }
+  }
+
+  .social {
+    width: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
     position: relative;
 
-    img {
-      position: absolute;
-      z-index: 0;
-    }
+    li {
+      margin: 10px 0;
 
-    .social {
-      width: 30px;
-      padding-top: 5px;
-      padding-left: 5px;
-      position: relative;
+      a {
+        span {
+          display: block;
+          margin: auto;
+          background: url('./assets/images/logos/social.png') no-repeat -2px -2px;
+          width: 10px;
+          height: 16px;
 
-      li {
-        margin: 10px 0;
+          &.instagram {
+            background-position: -18px -2px;
+            width: 17px;
+            height: 17px;;
+          }
 
-        a {
-          span {
-            display: block;
-            margin: auto;
-            background: url('./assets/images/logos/social.png') no-repeat -2px -2px;
-            width: 10px;
-            height: 16px;
-
-            &.instagram {
-              background-position: -18px -2px;
-              width: 17px;
-              height: 17px;;
-            }
-
-            &.twitter {
-              background-position: -64px -2px;
-              width: 20px;
-              height: 16px;;
-            }
+          &.twitter {
+            background-position: -64px -2px;
+            width: 20px;
+            height: 16px;;
           }
         }
       }
     }
+  }
 
-    .info {
-      p {
-        position: absolute;
-        text-transform: uppercase;
-        bottom: 50px;
-        width: 100%;
-        margin: 0;
-        font-size: 12px;
-        text-align: center;
+  .info {
+    p {
+      position: absolute;
+      text-transform: uppercase;
+      bottom: 50px;
+      width: 100%;
+      margin: 0;
+      font-size: 12px;
+      text-align: center;
 
-        &.name {
-          background-color: #f00;
-          font-weight: 900;
-          font-style: italic;
-          font-size: 15px;
-          padding: 10px 0;
-          bottom: 0;
-        }
+      &.name {
+        background-color: #f00;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 15px;
+        padding: 10px 0;
+        bottom: 0;
       }
+    }
+  }
+}
+
+#page-teams {
+  background-color: #171717;
+  margin-top: 100px;
+  padding: 50px;
+
+  h2 {
+    margin-bottom: 100px;
+  }
+
+  #teams {
+    h3 {
+      display: none;
+    }
+  }
+}
+
+#page-team {
+  background-color: #171717;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.arrows {
+  text-align: center;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+
+  a {
+    position: absolute;
+    width: 43px;
+    height: 70px;
+    display: block;
+    background: url('./assets/images/arrow-left.png') center top no-repeat;
+    top: -160px;
+    left: 50%;
+    margin-left: -260px;
+  
+    &.right {
+      background-image: url('./assets/images/arrow-right.png');
+      right: 50%;
+      margin-right: -260px;
+      left: auto;
+    }
+  }
+
+  span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    border-radius: 50%;
+    margin: 60px 10px 0;
+
+    &.active {
+      width: 200px;
+      border-radius: 30px;
     }
   }
 }

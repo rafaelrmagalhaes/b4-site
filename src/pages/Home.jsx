@@ -14,7 +14,9 @@ function Home() {
             <Banner />
             <Streams />
             <Updates />
-            <Championships />
+            <div className="col-md-9 mx-auto">
+                <Championships />
+            </div>
             <Teams />
             <Footer />
         </>

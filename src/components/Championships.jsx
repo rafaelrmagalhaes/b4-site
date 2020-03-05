@@ -4,7 +4,7 @@ import b4stardos from '../assets/images/logos/b4stardos.png';
 import intz from '../assets/images/logos/intz.png';
 
 const Championships = () => (
-    <section id="championships" className="col-md-9 mx-auto">
+    <section id="championships">
         <div className="row">
             <div className="col">
                 <h3>Campeonatos atuais</h3>
