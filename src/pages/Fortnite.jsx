@@ -9,8 +9,8 @@ function Fortnite() {
       <Header />
       <img src={banner} alt="Free Fire" className="banner-page" />
       <div className="arrows">
-        <a href="/equipe/pubg" className="left"></a>
-        <a href="/equipe/freefire" className="right"></a>
+        <a href="pubg" className="left"></a>
+        <a href="freefire" className="right"></a>
 
         <span></span>
         <span></span>

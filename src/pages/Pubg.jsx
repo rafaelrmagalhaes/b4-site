@@ -9,8 +9,8 @@ function Pubg() {
       <Header />
       <img src={banner} alt="PUBG" className="banner-page" />
       <div className="arrows">
-        <a href="/equipe/freefire" className="left"></a>
-        <a href="/equipe/fortnite" className="right"></a>
+        <a href="freefire" className="left"></a>
+        <a href="fortnite" className="right"></a>
 
         <span></span>
         <span className="active"></span>

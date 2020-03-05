@@ -9,8 +9,8 @@ function FreeFire() {
       <Header />
       <img src={banner} alt="Free Fire" className="banner-page" />
       <div className="arrows">
-        <a href="/equipe/fortnite" className="left"></a>
-        <a href="/equipe/pubg" className="right"></a>
+        <a href="fortnite" className="left"></a>
+        <a href="pubg" className="right"></a>
 
         <span className="active"></span>
         <span></span>
