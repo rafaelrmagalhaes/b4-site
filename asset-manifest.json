@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/b4-site/static/css/main.34e7435b.chunk.css",
-    "main.js": "/b4-site/static/js/main.b0ab7e21.chunk.js",
-    "main.js.map": "/b4-site/static/js/main.b0ab7e21.chunk.js.map",
+    "main.css": "/b4-site/static/css/main.c3a08e8a.chunk.css",
+    "main.js": "/b4-site/static/js/main.8f49f13e.chunk.js",
+    "main.js.map": "/b4-site/static/js/main.8f49f13e.chunk.js.map",
     "runtime-main.js": "/b4-site/static/js/runtime-main.6272b07f.js",
     "runtime-main.js.map": "/b4-site/static/js/runtime-main.6272b07f.js.map",
-    "static/js/2.e41a8d7a.chunk.js": "/b4-site/static/js/2.e41a8d7a.chunk.js",
-    "static/js/2.e41a8d7a.chunk.js.map": "/b4-site/static/js/2.e41a8d7a.chunk.js.map",
+    "static/js/2.a23c0a75.chunk.js": "/b4-site/static/js/2.a23c0a75.chunk.js",
+    "static/js/2.a23c0a75.chunk.js.map": "/b4-site/static/js/2.a23c0a75.chunk.js.map",
     "index.html": "/b4-site/index.html",
-    "precache-manifest.571cc72ee4bca54b9c04b06c5fa97db2.js": "/b4-site/precache-manifest.571cc72ee4bca54b9c04b06c5fa97db2.js",
+    "precache-manifest.aea9d4482b9e909f442c99bc17ad1475.js": "/b4-site/precache-manifest.aea9d4482b9e909f442c99bc17ad1475.js",
     "service-worker.js": "/b4-site/service-worker.js",
-    "static/css/main.34e7435b.chunk.css.map": "/b4-site/static/css/main.34e7435b.chunk.css.map",
-    "static/js/2.e41a8d7a.chunk.js.LICENSE.txt": "/b4-site/static/js/2.e41a8d7a.chunk.js.LICENSE.txt",
+    "static/css/main.c3a08e8a.chunk.css.map": "/b4-site/static/css/main.c3a08e8a.chunk.css.map",
+    "static/js/2.a23c0a75.chunk.js.LICENSE.txt": "/b4-site/static/js/2.a23c0a75.chunk.js.LICENSE.txt",
     "static/media/b4stardinhos.png": "/b4-site/static/media/b4stardinhos.034b3852.png",
     "static/media/b4stardos.png": "/b4-site/static/media/b4stardos.b9ffb32d.png",
+    "static/media/banner-equipe-fortnite.png": "/b4-site/static/media/banner-equipe-fortnite.575ba45a.png",
+    "static/media/banner-equipe-freefire.png": "/b4-site/static/media/banner-equipe-freefire.1ad22bc8.png",
+    "static/media/banner-equipe-pubg.png": "/b4-site/static/media/banner-equipe-pubg.9c6cb78a.png",
+    "static/media/banner-equipes.png": "/b4-site/static/media/banner-equipes.4da7fc53.png",
     "static/media/banner-fortnite.jpg": "/b4-site/static/media/banner-fortnite.18e97910.jpg",
     "static/media/banner-fotos.png": "/b4-site/static/media/banner-fotos.7d38a23c.png",
     "static/media/banner-free-fire.jpg": "/b4-site/static/media/banner-free-fire.06efaa78.jpg",
@@ -24,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6272b07f.js",
-    "static/js/2.e41a8d7a.chunk.js",
-    "static/css/main.34e7435b.chunk.css",
-    "static/js/main.b0ab7e21.chunk.js"
+    "static/js/2.a23c0a75.chunk.js",
+    "static/css/main.c3a08e8a.chunk.css",
+    "static/js/main.8f49f13e.chunk.js"
   ]
 }
